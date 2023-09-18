@@ -461,6 +461,8 @@ console.log(Object.getOwnPropertyDescriptor(person, 'fullName'));
 ```
 
 ```js
+// 25-36
+
 class Person {
     constructor(firstName, lastName) {
         this.firstName = firstName;

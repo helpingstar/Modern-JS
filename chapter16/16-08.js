@@ -30,7 +30,7 @@ console.log(Object.keys(person)); // ["firstName"]
 
 // [[Writable]]의 값이 false인 경우 해당 프로퍼티의 [[Value]]의 값을 변경할 수 없다.
 // lastName 프로퍼티는 [[Writable]]의 값이 false다.
-// 이떄 값을 변경하면 에러는 발생하지 않고 무시된다.
+// 이때 값을 변경하면 에러는 발생하지 않고 무시된다.
 person.lastName = 'Kim';
 
 // [[Configurable]]의 값이 false인 경우 해당 프로퍼티를 삭제할 수 없다.

@@ -301,7 +301,7 @@ encodeURIComponent(uriComponent)
 
 ```js
 /*
- * 인코딩된 URI의 구성요소를 전닫ㄹ받아 이스케이프 처리 이전으로 디코딩한다.
+ * 인코딩된 URI의 구성요소를 전달받아 이스케이프 처리 이전으로 디코딩한다.
  * @param {string} encodedURIComponent -> 인코딩된 URI의 구성요소
  * @returns {string} 디코딩된 URI의 구성요소
  */

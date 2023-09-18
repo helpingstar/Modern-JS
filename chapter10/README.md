@@ -230,7 +230,7 @@ person['1'];  // -> 10
 `person.last-name`
 
 * 자바스크립트 엔진 : `person.last` 평가
-  1. `last`인 프로퍼티가 없기 떄문에 `undefined`로 평가
+  1. `last`인 프로퍼티가 없기 때문에 `undefined`로 평가
   2. `undefined-name`
   3. `name` 이라는 식별자를 찾는다.
   4. 브라우저 환경에는 `name`이라는 전역변수(전역 객체 `window`의 프로퍼티)가 존재한다. 창(`window`)의 이름을 가리키며 기본값은 빈 문자열이다.
